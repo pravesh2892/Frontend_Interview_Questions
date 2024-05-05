@@ -1,8 +1,8 @@
-# 100 Days Of Frontend Interview Questions
+# Frontend Interview Questions
 
 This repo will contain 500 frontend interview questions which will have HTML, CSS, Javascript & React questions. I will add not any question in which we have to write code, just theory questions.
 
-I am myself learning 5 questions a day and will add those 5 questions a day in this repo till day 100 days. I'll be posting those 5 questions on social media too so if you want to see the 5 questions daily in your social media feed, connect with me on [Twitter](https://twitter.com/saran_pariyar1) and [LinkedIn](https://www.linkedin.com/in/saran-pariyar-5078b5217/).
+ connect with me on  [LinkedIn](https://www.linkedin.com/in/pravesh-meena-042b5210a/).
 
 <b>I've also added some tables, no need to memorize them, just take a look at them few times and you'll easily be able to answer those concepts if asked in interview.</b>
 
@@ -12,19 +12,19 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
 ## Tables of content
 
-| Techs      | No. of Questions |  Range  |  Day Range   |
-| ---------- | :--------------: | :-----: | :----------: |
-| HTML       |        50        |  0-50   |  Day 1 - 10  |
-| CSS        |       100        | 51-150  | Day 11 - 30  |
-| Javascript |       180        | 151-330 | Day 31 - 66  |
-| React      |       170        | 331-465 | Day 67 - 93  |
-| Typescript |        35        | 466-500 | Day 94 - 100 |
+| Techs      | No. of Questions |  Range  |   
+| ---------- | :--------------: | :-----: | 
+| HTML       |        50        |  0-50   | 
+| CSS        |       100        | 51-150  | 
+| Javascript |       180        | 151-330 | 
+| React      |       170        | 331-465 | 
+| Typescript |        35        | 466-500 | 
 
 ## <br />
 
 # HTML
 
-## Day 1
+
 
 1. ### What is HTML and what are it's basic components?
 
@@ -45,7 +45,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 5. ### What is the difference between div element and span element?
    The div element is a block-level element that is used to group and organize other HTML elements while span element is an inline-element that is used to apply style or attribute to a specific part of a block-level element.
 
-## Day 2
+
 
 6. ### What is the difference between \<b> and \<strong> tags in HTML?
 
@@ -66,7 +66,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 10. ### What is the purpose of the alt attribute in HTML?
     The alt attribute is used to provide a text description of an image for users who are unable in to see the image, such as those who use screen readers.
 
-## Day 3
+
 
 11. ### What are void elements in HTML?
 
@@ -91,7 +91,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 15. ### What is the canvas element in HTML5?
     The \<canvas> element is a container that is used to draw graphics on the web page using scripting language like javascript.
 
-## Day 4
+
 
 16. ### What is an HTML form?
 
@@ -112,7 +112,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 20. ### What is the purpose of the \<meta> tag in HTML?
     The \<meta> tag is used to provide additional information about the webpage, such as author, keywords, description which is used by search engines to understand the content of the page.
 
-## Day 5
+
 
 21. ### What is the purpose of the \<script> tag in HTML?
 
@@ -134,7 +134,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
     HTML tag is just opening or closing entity. For example \<p> and \</p> are called HTML tags. <br />
     HTML element consists of opening tag, closing tag and content(optional for content-less tags). For example: \<p> This is the content \</p>, this complete thing is called HTML element.
 
-## Day 6
+
 
 26. ### How do you change the color of bullets?
 
@@ -156,7 +156,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
     The "em" tag is a semantic tag which is used to apply emphasis to a word or phrase within a paragraph. <br />
     Example: The sentence "I really enjoyed cycling" could be written using the "em" tag to emphasize the word "really": "I \<em>really \</em> enjoyed the concert last night."
 
-## Day 7
+
 
 31. ### What is the purpose of \<header> tag?
 
@@ -177,7 +177,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 35. ### What is the purpose of \<section> tag?
     The \<section> tag is used to group together related content and can be thought of as a container for content.
 
-## Day 8
+
 
 36. ### What is the purpose of \<aside> tag?
 
@@ -198,7 +198,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 40. ### What is the purpose of \<blockquote> tag?
     The \<blockquote> tag is used to indicate that a section of text is being quoted from another source. It is used to highlight a particularly important quote.
 
-## Day 9
+
 
 41. ### What is \<datalist> tag?
 
@@ -250,7 +250,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
     | `summary`         | Specifies a summary of the contents of the table.                                                                                                                              |
     | `dir`             | Specifies the direction of the table's text. Possible values are `ltr` (left-to-right) and `rtl` (right-to-left).                                                              |
 
-## Day 10
+
 
 46. ### What is the purpose of the "data-\*" attribute in HTML?
 
@@ -287,7 +287,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
 # CSS
 
-## Day 11
+
 
 51. ### What is CSS?
 
@@ -318,7 +318,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 55. ### What is universal selector in css?
     The universal selector is a css selector that can be used to apply styles to all elements on a page or to reset styles for all elements to their default values
 
-## Day 12
+
 
 56. ### Explain the difference between classes and IDs in CSS.
 
@@ -339,7 +339,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 60. ### What is the CSS position property and its values?
     The CSS position property controls how an element is positioned on a page. The possible values are static, relative, absolute, fixed, and sticky
 
-## Day 13
+
 
 61. ### What is the difference between absolute and relative positioning in CSS?
 
@@ -360,7 +360,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 65. ### What are CSS pseudo-classes? Give some examples.
     CSS pseudo-classes are selectors that target elements based on their state or position in the document. Some examples include :hover, :active, :focus, :first-child, :last-child, and :nth-child.
 
-## Day 14
+
 
 66. ### What is CSS animation?
 
@@ -381,7 +381,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 70. ### How do you optimize CSS animations for performance?
     We can optimize CSS animation for performance by using techniques like reducing the number of elements being animated, minimizing the use of box-shadow and text-shadow, and using transform and opacity instead of top, left, bottom, and right.
 
-## Day 15
+
 
 71. ### How do you debug CSS animations and troubleshoot common issues, such as animations not playing or playing too quickly?
 
@@ -402,7 +402,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 75. ### What is the difference between linear and radial gradient in CSS?
     A linear gradient creates a smooth transition between two or more colors in a straight line while the radial gradient creates a smooth transition between two or more colors in a circular shape.
 
-## Day 16
+
 
 76. ### What is flexbox?
 
@@ -423,7 +423,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 80. ### How do you center an element using flexbox?
     To center an element using flexbox, we need to set the parent container's display property to `flex` and use the `justify-content` & `align-items` properties with the value of `center`.
 
-## Day 17
+
 
 81. ### What is CSS grid?
 
@@ -448,7 +448,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 85. ### What is the difference between grid-row and grid-column in CSS Grid?
     `grid-row` is used to position an item within a row, while `grid-column` is used to position an item within a column. Both properties can take a value of either a number or a named grid line.
 
-# Day 18
+
 
 86. ### What is a CSS transition?
 
@@ -469,7 +469,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 90. ### How do you apply a transition to multiple properties at once?
     You can apply a transition to multiple properties at once by separating the property names with commas in the `transition-property` property. example, `transition-property: background-color, color, opacity;`
 
-# Day 19
+
 
 91. ### What are CSS 2D Transforms?
 
@@ -497,7 +497,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 95. ### What is the difference between the `translate()` and `rotate()` functions?
     The `translate()` function is used to move an element along the x-axis and/or y-axis, while the `rotate()` function is used to rotate an element clockwise or counterclockwise around a given point.
 
-# Day 20
+
 
 96. ### What are the properties of CSS 3D transform?
 
@@ -525,7 +525,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 100.  ### what is css filter?
       CSS filters are a set of visual effects that can be applied to HTML elements using CSS. Filters can be used to adjust the appearance of an element in various ways, such as changing its color, blurring or sharpening it, adjusting its brightness or contrast, and more.
 
-# Day 21
+
 
 101. ### What are some important considerations when using text effects?
 
@@ -546,7 +546,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 105. ### What is the :visited pseudo-class used for in CSS?
      The :visited pseudo-class is used to target a link that has been visited by the user.
 
-# Day 22
+
 
 106. ### How do you target the first letter of a text element using a pseudo-selector in CSS?
 
@@ -567,7 +567,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 110. ### What is the @media rule in CSS?
      The @media rule in CSS allows developers to apply styles to a web page based on the size of the device or screen being used to view it, making it more responsive.
 
-# Day 23
+
 
 111. ### What is the difference between fluid and fixed layouts in CSS?
 
@@ -588,7 +588,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 115. ### How do you optimize responsive images for faster loading in CSS?
      To optimize responsive images for faster loading in CSS, you can use smaller file formats like JPEG and PNG, reduce the image size and resolution, and use lazy loading to only load images when they are needed.
 
-# Day 24
+
 
 116.  ### How does calc() work in css?
 
@@ -610,7 +610,6 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 120.  ### Explain what are web-safe fonts and fallback fonts.
       Web-safe fonts are fonts that are commonly installed on most devices and web browsers. Fallback fonts are alternative fonts specified in case the primary font is not available on the user's device.
 
-# Day 25
 
 121. ### What is the purpose of CSS content property?
 
@@ -631,7 +630,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 125. ### Which property is used to control the scrolling of an image in the background?
      The `background-attachment` property is used to control the scrolling of an image in the background.
 
-# Day 26
+
 
 126. ### Which CSS property is used to capitalize text or convert text to uppercase or lowercase letters?
 
@@ -652,7 +651,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 130. ### What are the potential drawbacks of using CSS frameworks such as Bootstrap?
      Using CSS frameworks like Bootstrap can lead to bloated code, difficulties in customizing the design, and unoriginal or generic looks
 
-# Day 27
+
 
 131. ### What is Tailwind CSS?
 
@@ -673,7 +672,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 135. ### What are some common performance issues with TailwindCSS, and how do you optimize performance in your projects?
      Common performance issues with TailwindCSS include the size of the CSS file and the number of classes being generated. To optimize performance, it is important to enable the purge option in a production environment, use a caching mechanism to speed up builds, and avoid generating unnecessary classes.
 
-# Day 28
+
 
 136. ### What is CSS preprocessor?
 
@@ -694,7 +693,6 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 140. ### Can you describe a situation where you would choose not to use Sass?
      A developer might choose not to use Sass if they prefer to stick with standard CSS for simplicity or if they are working on a small project where the added features of Sass may not be necessary.
 
-# Day 29
 
 141. ### What is SASS nesting?
 
@@ -764,7 +762,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
      }
      ```
 
-# Day 30
+
 
 146. ### What are some common mistakes that developers make when writing CSS, and how do you avoid them?
 
@@ -791,7 +789,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
 # Javascript
 
-# Day 31
+
 
 151. ### What is javascript?
 
@@ -812,7 +810,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 155. ### How do you convert a string to a number in JavaScript?
      You can use the `Number()` or `parseFloat()` functions to convert a string to a number in JavaScript.
 
-# Day 32
+
 
 156. ### What is the purpose of the array slice method?
 
@@ -837,7 +835,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 160. ### What are first class function?
      First-class functions means when functions in that language are treated like any other variable. This means that functions can be assigned to variables, passed as arguments to other functions, and returned from functions.
 
-# Day 33
+
 
 161. ### What is a pure function?
 
@@ -858,7 +856,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 165. ### What are modules in javascript?
      Modules are a way of organizing code into separate files or components that can be reused in different parts of an application. Modules allow you to encapsulate data and functionality, making your code more organized and easier to maintain
 
-# Day 34
+
 
 166. ### What is a closure in JavaScript?
 
@@ -892,7 +890,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 170. ### What is the purpose of the "use strict" statement in JavaScript?
      The "use strict" statement is used to enable strict mode in JavaScript, which helps to prevent common errors and make the code more secure. It prevents things like use of undeclared variable, use of keywords as variable name, using duplicate property names in objects, etc.
 
-# Day 35
+
 
 171.  ### What is a cookie in javascript?
 
@@ -960,7 +958,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 185. ### What is the role of the Window object in the DOM?
      The Window object in the DOM represents the browser window or tab that displays the web page. It provides methods and properties for controlling and manipulating the browser window.
 
-# Day 38
+
 
 186. ### What is a DOM node in JavaScript?
 
@@ -981,7 +979,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 190. ### What is an event loop?
      The event loop in JavaScript handles asynchronous operations by queuing them up and processing them one by one in a non-blocking way. It checks the event queue continuously and processes the oldest operation first. When an operation is completed, its callback function is executed.
 
-# Day 39
+
 
 191. ### What is BOM?
 
@@ -1012,7 +1010,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
      window.location.replace("https://www.example.com");
      ```
 
-# Day 40
+
 
 196. ### What is a JavaScript object?
 
@@ -1050,7 +1048,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 200. ### What is a JSON?
      JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications .
 
-# Day 41
+
 
 201. ### What is Class in JavaScript?
 
@@ -1080,7 +1078,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
      4. Readability: Classes provide a clean and organized way to structure your code, which can make it easier to read and understand.
 
-# Day 42
+
 
 206.  ### Can you explain the concept of method overriding in a class in JavaScript?
 
@@ -1104,7 +1102,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 210.  ### what is the purpose of `super()` in javascript classes?
       The `super()` keyword in JavaScript is used to call a method or constructor of a parent class from within a subclass. It allows a subclass to inherit and use functionality from the parent class, while also adding its own functionality.
 
-# Day 43
+
 
 211. ### What is a private class field in JavaScript?
 
@@ -1125,7 +1123,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 215. ### Can you explain the concept of instance variables in a class in JavaScript?
      In JavaScript, instance variables are properties of an object that are specific to an instance of a class. When we create a new instance of a class using the `new` keyword, each instance has its own set of instance variables that are separate from other instances.
 
-# Day 44
+
 
 216. ### What is the difference between a class and a function in JavaScript?
 
@@ -1146,7 +1144,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 220. ### Can you explain the concept of polymorphism in classes in JavaScript?
      Polymorphism in JavaScript classes means that different objects can share the same methods, even if they belong to different classes. This allows us to reuse code across multiple classes and write more flexible, maintainable code.
 
-# Day 45
+
 
 221.  ### What is prototype in javascript?
 
@@ -1172,7 +1170,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
       | Accessed using the `prototype` property of the constructor function               | Accessed using the `new` keyword followed by the constructor function  |
       | Modifying the prototype affects all instances created by the constructor function | Modifying the constructor function does not affect existing instances  |
 
-### Day 46
+
 
 226. ### How do you add properties and methods to an object's prototype in JavaScript?
 
@@ -1202,7 +1200,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 230. ### What is the difference between Object.create() and new Object() in JavaScript?
      The main difference between `new Object()` and `Object.create()` is that `new Object()` creates a new object from scratch, while `Object.create()` creates a new object that inherits from an existing object.
 
-# Day 47
+
 
 231. ### What is a regular expression(regex)?
 
@@ -1238,7 +1236,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
      On the other hand, if we want to match the letter "a" followed by one or more "b" characters, we would use the plus sign in our regular expression like this: /ab+/
 
-# Day 48
+
 
 236. ### How do you use the question mark (?) in regular expressions?
 
@@ -1259,7 +1257,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 240. ### How do you use the pipe (|) operator in regular expressions?
      The pipe (|) operator is used in regular expressions to match either one pattern or another. For example, the regular expression "cat|dog" will match either "cat" or "dog". You can also use parentheses to group patterns together when using the pipe operator. For example, the regular expression "(red|green|blue) car" will match "red car", "green car", or "blue car".
 
-# Day 49
+
 
 241. ### What is the purpose of the caret (^) and dollar sign ($) characters in regular expressions?
 
@@ -1281,7 +1279,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
 
      Lookarounds in regular expressions allow you to look ahead or behind the current position in the string without including the matched text in the result. Positive lookaheads (?=) and negative lookaheads (?!), as well as positive lookbehinds (?<=) and negative lookbehinds (?<!), are the four types of lookarounds that can be used.
 
-# Day 50
+
 
 246. ### What is the `window.location` object in JavaScript?
 
@@ -1322,7 +1320,7 @@ I am myself learning 5 questions a day and will add those 5 questions a day in t
      const id = new URLSearchParams(window.location.search).get("id");
      ```
 
-# Day 51
+
 
 251. ### What is the Date object in JavaScript?
 
