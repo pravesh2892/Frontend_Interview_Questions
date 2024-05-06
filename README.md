@@ -820,8 +820,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
      The `splice()` is an array method in JavaScript that allows you to modify an array by adding, removing, or replacing elements. It takes two required parameters: the index at which to start making changes to the array, and the number of elements to remove. It also has an optional parameter for adding one or more elements to the array.
 
- let fruits = ["Banana", "Orange", "Apple", "Mango"];
-
+      let fruits = ["Banana", "Orange", "Apple", "Mango"];
    // Remove "Orange" from the array
       fruits.splice(1, 1);
       console.log(fruits); // Output: ["Banana", "Apple", "Mango"]
@@ -871,7 +870,8 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 
 166. ### What is a closure in JavaScript?
-
+     
+     In JavaScript, closure refers to the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). This means that the function retains access to variables from its outer scope even after the outer function has finished executing
      In JavaScript, a closure is created when a function is defined inside another function and the inner function is returned from the outer function. The inner function has access to the variables in the outer function, even after the outer function has returned.
 
      ```
