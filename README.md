@@ -955,38 +955,6 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
       Promises in JavaScript are a way of handling async operations. They help us write async code that looks and behaves like sync code, making it easier to read and maintain. Promises have three states: pending, fulfilled, and rejected.
 
 
-      
-      In JavaScript, promises are objects that represent the eventual completion or failure of an asynchronous operation. They are used to handle asynchronous operations such as fetching data from a server, reading files, or any other operations that take time to complete.
-
-      A promise can be in one of three states:
-
-      Pending: Initial state, neither fulfilled nor rejected.
-      Fulfilled: The operation completed successfully.
-      Rejected: The operation failed.
-         
-
-         const myPromise = new Promise((resolve, reject) => {
-        // Asynchronous operation
-        setTimeout(() => {
-       const success = true; // Or false for failure
-        if (success) {
-         resolve('Operation successful');
-        } else {
-      reject('Operation failed');
-       }
-     }, 2000); // Simulating an asynchronous operation that takes 2 seconds
-   });
-
-// Handling the promise
-myPromise
-  .then((result) => {
-    console.log('Success:', result);
-  })
-  .catch((error) => {
-    console.log('Error:', error);
-  });
-
-
 
 176. ### Who created Javascript?
 
