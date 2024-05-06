@@ -822,13 +822,16 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
  let fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-// Remove "Orange" from the array
-fruits.splice(1, 1);
-console.log(fruits); // Output: ["Banana", "Apple", "Mango"]
+   // Remove "Orange" from the array
+      fruits.splice(1, 1);
+      console.log(fruits); // Output: ["Banana", "Apple", "Mango"]
+      
 
-// Add "Grapes" and "Kiwi" starting from the second position, replacing 0 elements
-fruits.splice(1, 0, "Grapes", "Kiwi");
-console.log(fruits); // Output: ["Banana", "Grapes", "Kiwi", "Apple", "Mango"]
+      // Add "Grapes" and "Kiwi" starting from the second position, replacing 0 elements
+       fruits.splice(1, 0, "Grapes", "Kiwi");
+       console.log(fruits); // Output: ["Banana", "Grapes", "Kiwi", "Apple", "Mango"].
+
+
 158. ### What is the difference between slice and splice?
 
      | slice                                        |                     splice                      |
