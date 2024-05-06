@@ -871,7 +871,9 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 166. ### What is a closure in JavaScript?
      
-     In JavaScript, closure refers to the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). This means that the function retains access to variables from its outer scope even after the outer function has finished executing
+     In JavaScript, closure refers to the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). This means that the function retains access to variables from its outer scope even after the outer function has finished executing.
+
+
      In JavaScript, a closure is created when a function is defined inside another function and the inner function is returned from the outer function. The inner function has access to the variables in the outer function, even after the outer function has returned.
 
      ```
@@ -898,6 +900,30 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 169. ### What is memoization?
 
      Memoization is a technique used in computer science to speed up the execution of functions by caching the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+
+     function memoizedFunction() {
+     const cache = {}; // Cache to store computed results
+     return function(arg) {
+         if (cache[arg]) {
+          console.log('Result from cache');
+          return cache[arg]; // Return cached result if available
+         } else {
+         console.log('Computing result');
+          const result = arg * 2; // Some expensive computation
+          cache[arg] = result; // Store result in cache
+          return result;
+          }
+         };
+        }
+
+
+     const memoized = memoizedFunction();
+     console.log(memoized(3)); // Outputs: Computing result, 6
+     console.log(memoized(3)); // Outputs: Result from cache, 6 (No recomputation)
+     console.log(memoized(5)); // Outputs: Computing result, 10
+     console.log(memoized(5)); // Outputs: Result from cache, 10 (No recomputation)
+
 
 170. ### What is the purpose of the "use strict" statement in JavaScript?
      The "use strict" statement is used to enable strict mode in JavaScript, which helps to prevent common errors and make the code more secure. It prevents things like use of undeclared variable, use of keywords as variable name, using duplicate property names in objects, etc.
@@ -928,7 +954,39 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 175.  ### What are promises in JavaScript?
       Promises in JavaScript are a way of handling async operations. They help us write async code that looks and behaves like sync code, making it easier to read and maintain. Promises have three states: pending, fulfilled, and rejected.
 
-# Day 36
+
+      
+      In JavaScript, promises are objects that represent the eventual completion or failure of an asynchronous operation. They are used to handle asynchronous operations such as fetching data from a server, reading files, or any other operations that take time to complete.
+
+      A promise can be in one of three states:
+
+      Pending: Initial state, neither fulfilled nor rejected.
+      Fulfilled: The operation completed successfully.
+      Rejected: The operation failed.
+         
+
+         const myPromise = new Promise((resolve, reject) => {
+        // Asynchronous operation
+        setTimeout(() => {
+       const success = true; // Or false for failure
+        if (success) {
+         resolve('Operation successful');
+        } else {
+      reject('Operation failed');
+       }
+     }, 2000); // Simulating an asynchronous operation that takes 2 seconds
+   });
+
+// Handling the promise
+myPromise
+  .then((result) => {
+    console.log('Success:', result);
+  })
+  .catch((error) => {
+    console.log('Error:', error);
+  });
+
+
 
 176. ### Who created Javascript?
 
@@ -949,7 +1007,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 180. ### How do you find operating system details in javascript?
      In JavaScript, you can find the operating system details of the user by accessing the `navigator` object, which contains information about the user's browser and environment.
 
-# Day 37
+
 
 181. ### What is the Document Object Model (DOM)?
 
