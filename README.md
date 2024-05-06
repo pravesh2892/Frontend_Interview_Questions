@@ -959,11 +959,11 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
       They are used to handle asynchronous operations such as fetching data from a server, reading files, or any other 
       operations that take time to complete.
 
-      # Pending: Initial state, neither fulfilled nor rejected.
+      #Pending: Initial state, neither fulfilled nor rejected.
       
-      # Fulfilled: The operation completed successfully.
+      #Fulfilled: The operation completed successfully.
       
-      # Rejected: The operation failed.
+      #Rejected: The operation failed.
 
 
 177. ### Who created Javascript?
