@@ -954,88 +954,98 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 175.  ### What are promises in JavaScript?
       Promises in JavaScript are a way of handling async operations. They help us write async code that looks and behaves like sync code, making it easier to read and maintain. Promises have three states: pending, fulfilled, and rejected.
 
+     
+      In JavaScript, promises are objects that represent the eventual completion or failure of an asynchronous operation. 
+      They are used to handle asynchronous operations such as fetching data from a server, reading files, or any other 
+      operations that take time to complete.
+
+      #Pending: Initial state, neither fulfilled nor rejected.
+      
+      #Fulfilled: The operation completed successfully.
+      
+      #Rejected: The operation failed.
 
 
-176. ### Who created Javascript?
+177. ### Who created Javascript?
 
      JavaScript was created by Brendan Eich in 1995.
 
-177. ### What is the difference between async/await and promises in JavaScript?
+178. ### What is the difference between async/await and promises in JavaScript?
 
      Both async/await and Promises are used to handle asynchronous operations in JavaScript. However, async/await is built on top of Promises which makes asynchronous code more readable, easier to write and reason about.
 
-178. ### How do you handle errors in javascript?
+179. ### How do you handle errors in javascript?
 
      In JavaScript, errors can be handled using try-catch blocks. The code that might generate an error is enclosed in a try block, and if an error occurs, the catch block is executed. The catch block can then handle the error, such as by logging it to the console or displaying an error message to the user.
 
-179. ### What is NaN in javascript?
+180. ### What is NaN in javascript?
 
      NaN (Not A Number) is a special value in JavaScript that represents a situation where a value is not a valid number. One important thing to note is that NaN is not equal to any value, including itself. We can use the `isNaN()` function to check whether a value is NaN or not.
 
-180. ### How do you find operating system details in javascript?
+181. ### How do you find operating system details in javascript?
      In JavaScript, you can find the operating system details of the user by accessing the `navigator` object, which contains information about the user's browser and environment.
 
 
 
-181. ### What is the Document Object Model (DOM)?
+182. ### What is the Document Object Model (DOM)?
 
      The DOM (Document Object Model) is a programming interface that represents the structure and content of an HTML document as a tree-like structure of nodes. It allows developers to access and manipulate the content and structure of a web page using programming languages like JavaScript.
 
-182. ### What is the difference between the DOM and HTML?
+183. ### What is the difference between the DOM and HTML?
 
      HTML is a markup language used to define the structure and content of a web page, while the DOM is an interface that represents that structure and content as a tree-like structure. The DOM provides a way to access and manipulate the content and structure of a web page, while HTML is simply a static markup language.
 
-183. ### What is the difference between the DOMContentLoaded event and the load event?
+184. ### What is the difference between the DOMContentLoaded event and the load event?
 
      The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, while the load event is fired when all resources on the page, including images and scripts, have finished loading.
 
-184. ### What is the difference between innerHTML and innerText?
+185. ### What is the difference between innerHTML and innerText?
 
      The main difference between `innerText` and `innerHTML` in the DOM is that `innerText` returns only the visible text content of an element, excluding any HTML tags, while `innerHTML` returns the complete HTML content of an element, including any nested elements and tags.
 
-185. ### What is the role of the Window object in the DOM?
+186. ### What is the role of the Window object in the DOM?
      The Window object in the DOM represents the browser window or tab that displays the web page. It provides methods and properties for controlling and manipulating the browser window.
 
 
 
-186. ### What is a DOM node in JavaScript?
+187. ### What is a DOM node in JavaScript?
 
      A node in the DOM is a fundamental unit that represents an element, attribute, or text content in a web page. Every node has a relationship with other nodes, such as a parent, child, or sibling. The parent node contains the child nodes, and the child nodes can have siblings that share the same parent
 
-187. ### How do you prevent default behavior of an event in the DOM using JavaScript?
+188. ### How do you prevent default behavior of an event in the DOM using JavaScript?
 
      To prevent the default behavior of an event in the DOM using JavaScript, you can use the preventDefault() method. This method is called on the event object that is passed to the event handler function
 
-188. ### What is event propagation?
+189. ### What is event propagation?
 
      Event propagation in the DOM refers to how events move or flow through different elements on a webpage. When an event happens on an element, like a click, it can travel to its parent elements and eventually to the whole document. This is called event bubbling. Alternatively, events can also travel from the document to the element that triggered the event, which is called event capturing.
 
-189. ### What is call stack in javascript?
+190. ### What is call stack in javascript?
 
      The call stack in JavaScript is a data structure that stores information about the currently executing functions. When a function is called, a new frame is added to the top of the stack, and when the function completes, its frame is removed from the stack. This helps the JavaScript engine keep track of where it is in the execution of a script and manage the order in which functions are called.
 
-190. ### What is an event loop?
+191. ### What is an event loop?
      The event loop in JavaScript handles asynchronous operations by queuing them up and processing them one by one in a non-blocking way. It checks the event queue continuously and processes the oldest operation first. When an operation is completed, its callback function is executed.
 
 
 
-191. ### What is BOM?
+192. ### What is BOM?
 
      BOM stands for Browser Object Model. It is a set of APIs provided by the browser that allow JavaScript to interact with the browser window.
 
-192. ### What is the use of `setTimeOut()` in javascript?
+193. ### What is the use of `setTimeOut()` in javascript?
 
      `setTimeout()` is a built-in function in JavaScript that allows you to schedule a function to be executed after a specified amount of time has elapsed.
 
-193. ### What is the use of `setInterval()` in javascript?
+194. ### What is the use of `setInterval()` in javascript?
 
      `setInterval()` is a function in JavaScript that allows you to repeatedly execute a given function at a specified interval. It works by calling the function repeatedly with a specified time delay between each call, until the interval is cancelled.
 
-194. ### What is the purpose of clearTimeout method and clearInterval?
+195. ### What is the purpose of clearTimeout method and clearInterval?
 
      The clearTimeout method is a built-in function in JavaScript that is used to cancel a timer created by the setTimeout function and clearInterval method is a built-in function in JavaScript that is used to cancel a recurring timer created by the setInterval function.
 
-195. ### How do you redirect new page in javascript?
+196. ### How do you redirect new page in javascript?
 
      To redirect to a new page using JavaScript, you can use the `window.location` object's `assign` or `replace` methods.
      Example:
@@ -1050,19 +1060,19 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 
 
-196. ### What is a JavaScript object?
+197. ### What is a JavaScript object?
 
      JavaScript object is a non-primitive data-type that allows you to store multiple collections of data. It is a container of key-value pairs in which value may be a variable, function or object itself.
 
-197. ### What is the difference between dot notation and bracket notation when accessing properties of an object?
+198. ### What is the difference between dot notation and bracket notation when accessing properties of an object?
 
      Dot Notation only allows static keys while Bracket Notation accepts dynamic keys. Static key here means that the key is typed directly, while Dynamic key here means that the key is evaluated from an expression.
 
-198. ### What is an object literal in javascript?
+199. ### What is an object literal in javascript?
 
      Object literal is a syntax for creating object in javascript in which property and method are inside of curly braces separated by comma. We assign a variable to an object in object literal.
 
-199. ### How would you clone an object in JavaScript?
+200. ### How would you clone an object in JavaScript?
 
      There are four ways to clone an object in javascript. They are:
 
@@ -1083,28 +1093,28 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      const copy4 = structuredClone(data)
      ```
 
-200. ### What is a JSON?
+201. ### What is a JSON?
      JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications .
 
 
 
-201. ### What is Class in JavaScript?
+202. ### What is Class in JavaScript?
 
      Class is a template that can be used to create objects that share the same properties and methods. When an object is created from a class, it is called an instance of that class. Class was introduced in ECMAScript(ES6).
 
-202. ### What is a constructor in javascript?
+203. ### What is a constructor in javascript?
 
      In JavaScript, a constructor is a special method that is used to create and initialize objects that are based on a class. It's like a blueprint for creating new objects.The constructor method is called automatically when a new object is created from a class, using the new keyword. It's used to set the initial state of the object by assigning values to its properties.
 
-203. ### What is the difference between a static method and an instance method in a class?
+204. ### What is the difference between a static method and an instance method in a class?
 
      An instance method is a method that can be called on an instance of a class, and it can access and modify instance-specific data, like properties of the object. A static method, on the other hand, is a method that belongs to the class itself, not to any instance of the class. It can only access class-level data and can be called on the class itself, rather than on an instance of the class.
 
-204. ### What is "this" in javascript Classes?
+205. ### What is "this" in javascript Classes?
 
      In JavaScript classes, `this` refers to the current object that is being worked on. It's like a placeholder for the object. For example, if you have a class that creates `Person` objects, and you want to give each person a `name`, you can use `this.name` to refer to the `name` property of the current `Person` object that is being created or accessed. So, `this` is just a way to access the current object's properties and methods inside a class.
 
-205. ### What are the benefits of using classes in JavaScript?
+206. ### What are the benefits of using classes in JavaScript?
 
      There are several benefits of using classes in javascript. Some of them are:
 
@@ -1118,89 +1128,89 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 
 
-206.  ### Can you explain the concept of method overriding in a class in JavaScript?
+207.  ### Can you explain the concept of method overriding in a class in JavaScript?
 
       Method overriding is a concept in JavaScript where a subclass can provide its own implementation of a method that is already defined in the parent class. To override a method in a subclass, you simply define a method with the same name as the method in the parent class
 
-207.  ### What is composition in classes in JavaScript?
+208.  ### What is composition in classes in JavaScript?
 
       Composition in class JS is a technique of building complex classes by combining smaller, more focused classes that represent specific behaviors or properties.Composition is a flexible and powerful technique for creating modular, reusable code in JavaScript.
 
-208.  ### What is inheritance in classes in javascript?
+209.  ### What is inheritance in classes in javascript?
 
       Inheritance in classes in JavaScript is the ability to create a new class based on an existing class. The new class inherits all the properties and methods of the existing class, and can also add new properties and methods or override existing ones.
 
-209.  ### What is the `extends` keyword in JavaScript, and how is it used for inheritance?
+210.  ### What is the `extends` keyword in JavaScript, and how is it used for inheritance?
       The `extends` keyword is used in JavaScript to create a new class that inherits from an existing class. It is used in the class declaration syntax, like this:
       ```
       class ChildClass extends ParentClass {
        // ChildClass methods and properties
       }
       ```
-210.  ### what is the purpose of `super()` in javascript classes?
+211.  ### what is the purpose of `super()` in javascript classes?
       The `super()` keyword in JavaScript is used to call a method or constructor of a parent class from within a subclass. It allows a subclass to inherit and use functionality from the parent class, while also adding its own functionality.
 
 
 
-211. ### What is a private class field in JavaScript?
+212. ### What is a private class field in JavaScript?
 
      A private class field in JavaScript refers to a class field that is only accessible within the class in which it is defined. It cannot be accessed or modified from outside the class, not even by instances of the class.
 
-212. ### Can you explain the concept of encapsulation in JavaScript classes?
+213. ### Can you explain the concept of encapsulation in JavaScript classes?
 
      Encapsulation is a concept in object-oriented programming that refers to bundling data and methods within a single unit, such as a class, and hiding the internal details of the class from the outside world. This makes the code more secure and maintainable.
 
-213. ### What is `get` keyword in javascript classes?
+214. ### What is `get` keyword in javascript classes?
 
      The `get` keyword is used to define a method that retrieves the value of a property. When the property is accessed, the `get` method is automatically called, and its return value is used as the property's value.
 
-214. ### What is `set` keyword in javascript classes?
+215. ### What is `set` keyword in javascript classes?
 
      The `set` keyword is used to define a method that sets the value of a property. When the property is assigned a value, the `set` method is automatically called, and it can perform any necessary validation or processing before setting the property's value.
 
-215. ### Can you explain the concept of instance variables in a class in JavaScript?
+216. ### Can you explain the concept of instance variables in a class in JavaScript?
      In JavaScript, instance variables are properties of an object that are specific to an instance of a class. When we create a new instance of a class using the `new` keyword, each instance has its own set of instance variables that are separate from other instances.
 
 
 
-216. ### What is the difference between a class and a function in JavaScript?
+217. ### What is the difference between a class and a function in JavaScript?
 
      functions and classes are both important tools in JavaScript for defining reusable code, but they serve different purposes. Functions are used to encapsulate logic and perform specific tasks, while classes are used to create objects with shared properties and methods. Knowing when to use each one depends on the specific problem being solved and the design of the application.
 
-217. ### What is abstract class in javascript?
+218. ### What is abstract class in javascript?
 
      In JavaScript, an abstract class is a blueprint for creating other classes that share some common properties and methods. However, unlike regular classes, abstract classes cannot be directly instantiated. Instead, they are meant to be extended or subclassed by other classes.
 
-218. ### How would you convert an object to a JSON string in JavaScript, and vice versa?
+219. ### How would you convert an object to a JSON string in JavaScript, and vice versa?
 
      In JavaScript, you can convert an object to a JSON string using the `JSON.stringify()` method, and you can convert a JSON string back to an object using the `JSON.parse()` method.
 
-219. ### What is the difference between a class and an interface in JavaScript?
+220. ### What is the difference between a class and an interface in JavaScript?
 
      Classes and interfaces are both used in JavaScript to define object types, but serve different purposes. A class defines a blueprint for creating objects that have properties and methods, while an interface describes the shape of an object and enforces a contract between different parts of a program. Classes define what an object is, while interfaces define what an object can do.
 
-220. ### Can you explain the concept of polymorphism in classes in JavaScript?
+221. ### Can you explain the concept of polymorphism in classes in JavaScript?
      Polymorphism in JavaScript classes means that different objects can share the same methods, even if they belong to different classes. This allows us to reuse code across multiple classes and write more flexible, maintainable code.
 
 
 
-221.  ### What is prototype in javascript?
+222.  ### What is prototype in javascript?
 
       In JavaScript, a prototype is an object that contains properties and methods that can be shared by all objects created with the same constructor function. It helps to reduce code duplication and makes your code more efficient.
 
-222.  ### What is prototype chain?
+223.  ### What is prototype chain?
 
       Every object in JavaScript has a built-in property, which is called its prototype. The prototype is itself an object, so the prototype will have its own prototype, making what's called a prototype chain. The chain ends when we reach a prototype that has null for its own prototype.
 
-223.  ### How does prototypal inheritance work in JavaScript?
+224.  ### How does prototypal inheritance work in JavaScript?
 
       Prototypal inheritance allows objects to inherit properties and methods from their parent objects. When an object is created with a constructor function, its prototype is automatically set to the prototype object associated with that constructor function. Any properties or methods defined in the prototype object are shared by all objects created with that constructor function. When an object tries to access a property or method, JavaScript first looks for it in the object itself. If it's not found, it looks up the prototype chain until it finds the property or method.
 
-224.  ### What is the difference between prototypal inheritance and classical inheritance?
+225.  ### What is the difference between prototypal inheritance and classical inheritance?
 
       The main difference between prototypal and classical inheritance is that prototypal inheritance allows objects to inherit properties and methods directly from other objects, without the need for classes or constructors. This makes the code more flexible and easier to maintain. Classical inheritance relies on classes and constructors to define the inheritance hierarchy, which can provide better organization and structure but is more rigid and requires more upfront planning.
 
-225.  ### What is the difference between an object's prototype and its constructor function?
+226.  ### What is the difference between an object's prototype and its constructor function?
       | Prototype                                                                         | Constructor Function                                                   |
       | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
       | An object that is shared by all instances created by the constructor function     | A function that is used to create new objects                          |
@@ -1210,7 +1220,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 
 
-226. ### How do you add properties and methods to an object's prototype in JavaScript?
+227. ### How do you add properties and methods to an object's prototype in JavaScript?
 
      We can add properties and methods to an object's prototype by using the constructor function's prototype property. To add a property, simply assign a value to a property on the prototype object. To add a method, define a function and assign it to a property on the prototype object.
 
@@ -1218,11 +1228,11 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      MyConstructor.prototype.myProperty = "some value";
      ```
 
-227. ### What is the difference between `Object.prototype` and `Object.__proto__` in JavaScript?
+228. ### What is the difference between `Object.prototype` and `Object.__proto__` in JavaScript?
 
      In other words, `Object.prototype` is the object that provides default properties and methods that all objects in JavaScript inherit from. On the other hand, `Object.__proto__` is the object that the `Object` constructor itself inherits from, and it provides the properties and methods that are specific to the `Object` constructor.
 
-228. ### How do you check if an object inherits from a specific prototype in JavaScript?
+229. ### How do you check if an object inherits from a specific prototype in JavaScript?
 
      We can check if an object inherits from a specific prototype by using the `isPrototypeOf()` method. This method can be called on a prototype object to check if it appears anywhere in the prototype chain of another object. If the prototype object does appear in the prototype chain of the other object, `isPrototypeOf()` will return `true`. Otherwise, it will return `false`.
 
@@ -1231,24 +1241,24 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      console.log(Object.prototype.isPrototypeOf(person)); // Outputs true if it inherits or else false
      ```
 
-229. ### How do you override a method in an object's prototype in JavaScript?
+230. ### How do you override a method in an object's prototype in JavaScript?
 
      We can override a method in an object's prototype by redefining the method on the prototype. To do this, you simply assign a new function to the existing property on the prototype. When you do this, any objects that were created using the constructor function whose prototype you are modifying will now have the new version of the method available to them.
 
-230. ### What is the difference between Object.create() and new Object() in JavaScript?
+231. ### What is the difference between Object.create() and new Object() in JavaScript?
      The main difference between `new Object()` and `Object.create()` is that `new Object()` creates a new object from scratch, while `Object.create()` creates a new object that inherits from an existing object.
 
 
 
-231. ### What is a regular expression(regex)?
+232. ### What is a regular expression(regex)?
 
      A regular expression, or regex for short, is a set of characters that form a pattern. This pattern is used to search for and match specific sequences of text.
 
-232. ### What is the difference between a regular expression and a string?
+233. ### What is the difference between a regular expression and a string?
 
      A regular expression is a pattern used to match against a string. A string is simply a sequence of characters.
 
-233. ### What is the syntax for creating a regular expression pattern?
+234. ### What is the syntax for creating a regular expression pattern?
 
      The syntax for creating a regular expression pattern consists of a combination of characters, special characters, and operators that define the pattern to match.
 
@@ -1257,7 +1267,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      const pattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/;
      ```
 
-234. ### What is a character class in regular expressions?
+235. ### What is a character class in regular expressions?
 
      A character class in regular expressions is a set of characters that can be matched in a single position in the text. It is denoted by enclosing the characters in square brackets [].
 
@@ -1266,7 +1276,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      const pattern = /[aeiou]/;
      ```
 
-235. ### What is the difference between the asterisk () and the plus sign (+) in regular expressions?
+236. ### What is the difference between the asterisk () and the plus sign (+) in regular expressions?
 
      In regular expressions, the asterisk (\*) matches zero or more occurrences of the preceding character, while the plus sign (+) matches one or more occurrences of the preceding character.
 
@@ -1276,54 +1286,54 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 
 
-236. ### How do you use the question mark (?) in regular expressions?
+237. ### How do you use the question mark (?) in regular expressions?
 
      The question mark (?) is a metacharacter used in regular expressions to indicate that the preceding character or group of characters is optional. It means that the preceding character or group of characters may appear zero or one time. For example, the regular expression "colou?r" will match both "color" and "colour".
 
-237. ### What is the purpose of backslashes () in regular expressions?
+238. ### What is the purpose of backslashes () in regular expressions?
 
      Backslashes () are used in regular expressions to indicate that the following character has a special meaning. For example, the regular expression "\d" matches any digit character, while the regular expression "\s" matches any whitespace character. If you want to match a literal backslash character, you need to escape it by using two backslashes (\).
 
-238. ### How do you specify a range of characters in a character class?
+239. ### How do you specify a range of characters in a character class?
 
      In a character class, you can specify a range of characters by using a hyphen (-) between two characters. For example, the regular expression "[a-z]" matches any lowercase letter from "a" to "z". Similarly, the regular expression "[0-9]" matches any digit character from "0" to "9". Note that the range is inclusive, so the characters at both ends are included in the match.
 
-239. ### What is the difference between a greedy and a non-greedy match in regular expressions?
+240. ### What is the difference between a greedy and a non-greedy match in regular expressions?
 
      In regular expressions, a greedy match will match as much as possible while still allowing the overall pattern to match. A non-greedy match, on the other hand, will match as little as possible while still allowing the overall pattern to match. Greedy matching is the default behavior in most regex engines. To make a match non-greedy, you can use the question mark (?) after the quantifier. For example, the regular expression ".\*?" will match as few characters as possible.
 
-240. ### How do you use the pipe (|) operator in regular expressions?
+241. ### How do you use the pipe (|) operator in regular expressions?
      The pipe (|) operator is used in regular expressions to match either one pattern or another. For example, the regular expression "cat|dog" will match either "cat" or "dog". You can also use parentheses to group patterns together when using the pipe operator. For example, the regular expression "(red|green|blue) car" will match "red car", "green car", or "blue car".
 
 
 
-241. ### What is the purpose of the caret (^) and dollar sign ($) characters in regular expressions?
+242. ### What is the purpose of the caret (^) and dollar sign ($) characters in regular expressions?
 
      The caret (^) and dollar sign ($) characters in regular expressions are used to match the beginning and end of a string, respectively.
 
-242. ### What are some common use cases for regular expressions?
+243. ### What are some common use cases for regular expressions?
 
      Common use cases for regular expressions include text parsing, search and replace operations, and input validation.
 
-243. ### How do you match a specific number of characters in a regular expression?
+244. ### How do you match a specific number of characters in a regular expression?
 
      To match a specific number of characters in a regular expression, you can use quantifiers such as {n} to match exactly n occurrences of a pattern, or {n,m} to match between n and m occurrences.
 
-244. ### How do you match a specific character that has a special meaning in a regular expression?
+245. ### How do you match a specific character that has a special meaning in a regular expression?
 
      To match a specific character that has a special meaning in a regular expression, you can use an escape character () before the special character.
 
-245. ### How do you use lookarounds in regular expressions?
+246. ### How do you use lookarounds in regular expressions?
 
      Lookarounds in regular expressions allow you to look ahead or behind the current position in the string without including the matched text in the result. Positive lookaheads (?=) and negative lookaheads (?!), as well as positive lookbehinds (?<=) and negative lookbehinds (?<!), are the four types of lookarounds that can be used.
 
 
 
-246. ### What is the `window.location` object in JavaScript?
+247. ### What is the `window.location` object in JavaScript?
 
      The `window.location` object is a built-in object in JavaScript that contains information about the current URL of the webpage. It is a property of the global `window` object and provides several properties and methods to work with URLs.
 
-247. ### What are the properties of the `window.location` object?
+248. ### What are the properties of the `window.location` object?
 
      Some of the properties of the window.location object are:
 
@@ -1336,7 +1346,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      `search` : returns the query string of the URL <br/>
      `hash` : returns the anchor part of the URL <br/>
 
-248. ### How do you redirect to another page using JavaScript's `window.location` object?
+249. ### How do you redirect to another page using JavaScript's `window.location` object?
 
      We can redirect to another page using the `assign()` method of the `window.location` object.
 
@@ -1344,7 +1354,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
           window.location.assign("https://www.google.com");
      ```
 
-249. ### How do you reload the current page using JavaScript's `window.location` object?
+250. ### How do you reload the current page using JavaScript's `window.location` object?
 
      You can reload the current page using the reload() method of the window.location object.
 
@@ -1352,7 +1362,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      window.location.reload();
      ```
 
-250. ### How do you get the value of a query parameter from the URL using JavaScript's `window.location` object?
+251. ### How do you get the value of a query parameter from the URL using JavaScript's `window.location` object?
      You can get the value of a query parameter from the URL using the `searchParams` property of the `window.location ` object. For example, to get the value of a query parameter named `id`.
      ```
      const id = new URLSearchParams(window.location.search).get("id");
@@ -1360,11 +1370,11 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 
 
-251. ### What is the Date object in JavaScript?
+252. ### What is the Date object in JavaScript?
 
      The Date object in JavaScript represents a date and time value, which can be used to perform various operations on dates and times.
 
-252. ### How do you format a date in JavaScript?
+253. ### How do you format a date in JavaScript?
 
      You can format a date in JavaScript using the toLocaleDateString() method of the Date object, which returns a string representation of the date in the specified locale.
 
@@ -1374,7 +1384,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      console.log(formattedDate); // Output: "05/14/2023"
      ```
 
-253. ### How do you compare two dates in JavaScript?
+254. ### How do you compare two dates in JavaScript?
 
      You can compare two dates in JavaScript using the <, >, <=, >=, ==, and != operators, which compare the numeric values of the Date objects (i.e., their timestamps).
 
@@ -1389,11 +1399,11 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      }
      ```
 
-254. ### How do you get the current timestamp in JavaScript?
+255. ### How do you get the current timestamp in JavaScript?
 
      You can get the current timestamp in JavaScript using the `getTime()` method of the Date object, which returns the number of milliseconds since January 1, 1970, 00:00:00 UTC.
 
-255. ### How do you add or subtract days to a date in JavaScript?
+256. ### How do you add or subtract days to a date in JavaScript?
      You can add or subtract days to a date in JavaScript using the `setDate()` method of the Date object, which allows you to set the day of the month for a given date.
      ```
      let date = new Date();
