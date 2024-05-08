@@ -1411,7 +1411,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      console.log(date); // Output: the date 3 days from now
      ```
 
-# Day 52
+
 
 256. ### what is iterator in javascript?
 
@@ -1455,7 +1455,6 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 265. ### What is a scope chain in JavaScript's function execution context?
      The scope chain is a list of all the variable environments that are accessible to the function. It is used to resolve variable references during the function's execution. When a variable is not found in the current variable environment, JavaScript looks up the scope chain to find the variable in outer environments until it reaches the global execution context.
 
-# Day 54
 
 266. ### What is Minification?
 
@@ -1496,7 +1495,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      cities.length = 0; // cities becomes []
      ```
 
-# Day 55
+
 
 271. ### What is a lambda function?
 
@@ -1534,7 +1533,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      //fruitSalad = ["kiwi", "grape", "apple", "banana", "orange", "melon"]
      ```
 
-# Day 56
+
 
 276. ### Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
 
@@ -1557,7 +1556,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 280. ### What is the data type of variables in JavaScript?
      All variables in JavaScript are object data types.
 
-# Day 57
+
 
 281. ### What is the difference between a prototype and an instance?
 
@@ -1612,7 +1611,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
         console.log(x); // Output: ReferenceError: x is not defined
         ```
 
-# Day 58
+
 
 286. ### What are the different types of errors in JavaScript?
 
@@ -1637,7 +1636,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 290. ### When to Use Internal and External JavaScript Code?
      If you have only a few lines of code that is specific to a particular webpage. In that case, it is better to keep your JavaScript code internal within your HTML document. On the other hand, if your JavaScript code is used in many web pages, you should consider keeping your code in a separate file.If your code is too long, it is better to keep it in a separate file. This helps in easy debugging.
 
-# Day 59
+
 
 291. ### What is npm?
 
@@ -1658,7 +1657,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 295. ### What is a blocking function?
      A blocking function is a type of function that halts the execution of the program until it completes its task or receives a response.
 
-# Day 60
+
 
 296. ### What is Function Composition?
 
@@ -1680,7 +1679,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 300. ### What is a PWA?
      PWAs (Progressive Web Apps) are web applications that use JavaScript, HTML, and CSS to provide a mobile app-like experience. They work offline, send push notifications, and can be installed on devices. PWAs combine the best of web and app technologies, allowing users to access them directly through web browsers without the need for app store downloads.
 
-# Day 61
+
 
 301. ### What is nullish coalescing operator (??)?
      It is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand. This can be contrasted with the logical OR (||) operator, which returns the right-hand side operand if the left operand is any falsy value, not only null or undefined.
@@ -1706,7 +1705,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 305. ### What are the different ways to optimize JavaScript code?
      To optimize JavaScript code, you can combine and minify files, minimize global variables, optimize loops and conditionals, use efficient data structures and algorithms, cache data, leverage asynchronous programming, and optimize DOM manipulation.
 
-# Day 62
+
 
 306. ### What is the difference between undeclared & undefined?
 
@@ -1741,7 +1740,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 310. ### What does delete do in JavaScript?
      The `delete` operator is used for deleting an object’s property or key.
 
-# Day 63
+
 
 311. ### What is control flow function?
 
@@ -1780,7 +1779,6 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
      not an instance of the String constructor)
      ```
 
-# Day 64
 
 316. ### What are the drawbacks of prototypal inheritance?
 
@@ -1801,7 +1799,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 320. ### What are the drawbacks of using the "delete" operator in JavaScript?
      The "delete" operator in JavaScript has drawbacks. It can be slow and impact performance when deleting object properties. It does not affect the prototype chain, leading to unexpected behavior. It also cannot delete variables or functions declared with "var" or "function" keywords.
 
-# Day 65
+
 
 321. ### What are the advantages of using closures in JavaScript?
 
@@ -1822,7 +1820,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 325. ### Can you explain the benefits of using the "this" keyword and how it differs in different contexts in JavaScript?
      The "this" keyword in JavaScript allows objects to refer to their own properties and methods dynamically, adapting to different execution contexts and enabling code reusability.
 
-# Day 66
+
 
 326. ### What resources or techniques do you use to stay up to date with the latest developments in JavaScript?
 
@@ -1855,7 +1853,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 
 # ReactJS
 
-# Day 67
+
 
 331. ### What is ReactJS?
 
@@ -1876,7 +1874,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 335. ### Explain the concept of virtual DOM in ReactJS.
      Virtual DOM is a lightweight copy of the actual DOM maintained by React. It allows React to efficiently update and render components by calculating the optimal changes needed and applying them to the real DOM.
 
-# Day 68
+
 
 336. ### What are the components in ReactJS?
 
@@ -1897,7 +1895,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 340. ### What are the lifecycle methods in ReactJS and how do they work?
      Lifecycle methods in ReactJS are special methods that are invoked at different stages of a component's lifecycle. They allow developers to perform specific actions at certain points, such as initializing state, updating the UI, or cleaning up resources. Examples of lifecycle methods include "componentDidMount," "componentDidUpdate," and "componentWillUnmount." They provide hooks to execute code at specific moments during the component's lifespan.
 
-# Day 69
+
 
 341. ### What is a higher-order component (HOC) in ReactJS?
 
@@ -1918,7 +1916,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 345. ### What is the significance of the "React.Fragment" component?
      "React.Fragment" is a component in ReactJS that allows you to group multiple elements without adding extra DOM elements. It helps keep the rendered output clean and is particularly useful when you don't want to introduce additional wrappers or nesting levels.
 
-# Day 70
+
 
 346. ### How does React handle event handling?
 
@@ -1939,7 +1937,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 350. ### Explain the concept of React Hooks and their benefits.
      React Hooks provide a way to reuse stateful logic without writing a class component. Hooks enable developers to manage component state, handle side effects, and tap into the React lifecycle in a more straightforward and flexible manner. They offer benefits like improved code readability, reusability, and easier testing. Some commonly used hooks include useState, useEffect, and useContext.
 
-# Day 71
+
 
 351. ### Can web browsers read JSX directly?
 
@@ -1960,7 +1958,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 355. ### When do we prefer to use a class component over a function component?
      If a component needs state or lifecycle methods, we should use the class component; otherwise, use the function component. However, after React 16.8, with the addition of Hooks, you could use state, lifecycle methods, and other features that were only available in the class component right in your function component.
 
-# Day 72
+
 
 356. ### How do you handle forms in React?
 
@@ -1981,7 +1979,7 @@ This repo will contain 500 frontend interview questions which will have HTML, CS
 360. ### Explain the concept of lazy loading in React.
      Lazy loading in React is a technique used to optimize performance by loading components or resources only when they are needed. Instead of loading all components upfront, you can dynamically import them using the React.lazy function and render them when required. This helps reduce the initial bundle size and improves the loading speed of your application.
 
-# Day 73
+
 
 361. ### What is useEffect hook?
 
